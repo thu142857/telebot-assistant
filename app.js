@@ -9,6 +9,8 @@ const handlers = ['errorHandler'];
 const subEnvPath = process.env.NODE_ENV !== 'production' ? `.${process.env.NODE_ENV}` : '';
 require('dotenv').config({ path: `.env${subEnvPath}` });
 const _ = require('lodash');
+const { default: axios } = require('axios');
+const fs = require('fs');
 
 const app = express();
 app.use(cors())
