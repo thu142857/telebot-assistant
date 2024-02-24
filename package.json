@@ -1,6 +1,6 @@
 {
   "name": "telegram-assistant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "telegram bot will help you to do everything you can setup for him",
   "main": "app.js",
   "scripts": {
